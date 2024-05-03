@@ -1,6 +1,7 @@
 const sql = require("better-sqlite3");
 const db = sql("meals.db");
 
+// images must be in public folder
 const dummyMeals = [
   {
     title: "Juicy Cheese Burger",
