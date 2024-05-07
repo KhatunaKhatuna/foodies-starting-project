@@ -4,7 +4,6 @@ import classes from "./ImagePicker.module.css";
 import Image from "next/image";
 
 export default function ImagePicker({ label, name }) {
-  console.log(label, name);
   const [pickedImage, setPickedImage] = useState(null);
 
   const imageInput = useRef();
